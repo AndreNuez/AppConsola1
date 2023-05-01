@@ -47,6 +47,7 @@ public class Principal extends JFrame {
 		
 		final Ejercicio1 ej1 = new Ejercicio1();
 		final Ejercicio2 ej2 = new Ejercicio2();
+		final Ejercicio3 ej3 = new Ejercicio3();
 		
 		JLabel lblGrupo = new JLabel("GRUPO NRO: 5");
 		lblGrupo.setFont(new Font("Tahoma", Font.BOLD, 14));
@@ -78,6 +79,11 @@ public class Principal extends JFrame {
 		contentPane.add(btnEjercicio2);
 		
 		JButton btnEjercicio3 = new JButton("Ejercicio 3");
+		btnEjercicio3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				ej3.setVisible(true);
+			}
+		});
 		btnEjercicio3.setForeground(Color.BLACK);
 		btnEjercicio3.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		btnEjercicio3.setBackground(Color.LIGHT_GRAY);

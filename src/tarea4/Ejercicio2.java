@@ -46,7 +46,6 @@ public class Ejercicio2 extends JFrame {
 	private JTextField txtPromedio;
 	private JTextField txtCondicion;
 	private JComboBox cboTPS;
-	private String cbo;
 
 	public Ejercicio2() {
 		setTitle("Promedio");
